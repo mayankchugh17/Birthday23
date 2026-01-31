@@ -7,7 +7,7 @@ export default function Special() {
       
       {/* Title */}
       <h1 className="text-3xl sm:text-5xl md:text-7xl text-[#3A2E5C] font-semibold mb-14">
-        💖 Why She's Special ?
+        💖 Why You're Special ?
       </h1>
 
       {/* Cards Grid */}

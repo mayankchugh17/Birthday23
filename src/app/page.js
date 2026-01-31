@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import LastNote from "./components/LastNote";
 
 export default function Page() {
+  
   return (
     <>
       <Home />

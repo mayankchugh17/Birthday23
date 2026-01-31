@@ -1,22 +1,46 @@
 export default function Home() {
   return (
-    <>
-      <section className="pl-20 bg-[url(/bg2.jpg)] pt-15 bg-scroll h-screen w-full bg-no-repeat bg-center bg-cover">
-        <span>
-          <h1 className="sm:text-5xl md:text-8xl text-white py-4">
-            Happy Birthday <br/>Darpan🌸 
-          </h1>
-        </span>
-        
-        <h2 className="my-25 text-white sm:text-3xl md:text-4xl p-3">
-          “Like lavender in the wind, your love calms my soul <br /> and colors
-          my world.”
-        </h2>
-        <h2 className="my-6 text-white sm:text-3xl md:text-4xl p-3">
-          “If love had a color, it would be lavender—because <br /> it feels
-          like you.” 🪻✨
-        </h2>
-      </section>
-    </>
+    <section
+      className="
+        relative
+        min-h-screen
+        w-full
+        bg-[url('/bg2.jpg')]
+        bg-cover
+        bg-center
+        bg-no-repeat
+        flex
+        items-center
+      "
+    >
+      <div className="absolute inset-0 bg-black/30"></div>
+
+      <div
+        className="
+          relative
+          z-10
+          w-full
+          px-5
+          sm:px-10
+          md:px-20
+          text-white
+        "
+      >
+        <h1 className="text-3xl sm:text-5xl md:text-8xl font-semibold leading-tight">
+          Happy Birthday <br />
+          Darpan 🌸
+        </h1>
+
+        <p className="mt-8 text-lg sm:text-2xl md:text-4xl max-w-3xl">
+          “Like lavender in the wind, your love calms my soul and colors my
+          world.”
+        </p>
+
+        <p className="mt-6 text-lg sm:text-2xl md:text-4xl max-w-3xl">
+          “If love had a color, it would be lavender—because it feels like you.”
+          🪻✨
+        </p>
+      </div>
+    </section>
   );
 }

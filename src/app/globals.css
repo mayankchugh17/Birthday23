@@ -10,7 +10,7 @@ body {
   color: #3A2E5C;
 }
 
-.about::selection{
+*::selection{
   background-color: #3A2E5C;
   color: #FFFFFF;
 }
